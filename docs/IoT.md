@@ -20,13 +20,13 @@
    alla quale è connessa la Raspberry. 
  * siamo riusciti così a connetterci alla Raspberry attraverso ***PuTTY***
  * Digitiamo:
-	a. sudo apt update
-	b. sudo apt install -y mosquitto mosquitto-clients
-	c. sudo systemctl enable mosquitto.service
+	* sudo apt update
+	* sudo apt install -y mosquitto mosquitto-clients
+	* sudo systemctl enable mosquitto.service
  * Testiamo digitando: mosquitto -v
  * scarichiamo e inseriamo le seguenti librerie all'interno di Arduino IDE
-   	1° https://github.com/marvinroger/async-mqtt-client/archive/master.zip
-	2° https://github.com/me-no-dev/AsyncTCP/archive/master.zip 
+   	* https://github.com/marvinroger/async-mqtt-client/archive/master.zip
+	* https://github.com/me-no-dev/AsyncTCP/archive/master.zip 
  * scriviamo il codice vero e proprio per connettere le due schede
  * il codice che abbiamo scritto aveva degli errori che abbiamo corretto 
  *
